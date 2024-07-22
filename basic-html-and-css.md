@@ -1,6 +1,7 @@
 ---
-title: Home
-layout: home
+title: Basic HTML and CSS
+layout: default
+nav_order: 2
 ---
 
 
