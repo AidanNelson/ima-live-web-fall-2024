@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Live Web
+description: Course website for Live Web at Interactive Media Arts, NYU Tisch
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://aidannelson.github.io/ima-live-web-fall-2024/
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+#aux_links:
+#  Template Repository: https://github.com/just-the-docs/just-the-docs-template
