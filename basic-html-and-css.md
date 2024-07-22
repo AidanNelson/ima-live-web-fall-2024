@@ -100,10 +100,10 @@ To place an image in a page, you use a URL in the “src” attribute of the img
 ### Style
 
 You can use some basic CSS (cascading style sheets) in the “style” attribute of tags.
-
-    <div style="background: #00ff00; text-color: #ff0000;">This will be funky</div>
-
-This will be funky
+```html
+    <div style="background: #ff0000; color: #0000ff;">This will be funky</div>
+```
+<div style="background: #ff0000; color: #0000ff;">This will be funky</div>
 
 We’ll get deeper into CSS later in the semester.
 
