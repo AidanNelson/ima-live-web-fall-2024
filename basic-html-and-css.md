@@ -17,7 +17,7 @@ nav_order: 2
 </details>
 
 
-## HTML
+### HTML
 HTML stands for HyperText Markup Language. While not a traditional programming language, it is the language that is used to create web pages. Typically a markup language is used to define the structure and display of content, HTML is no different.
 
 ### Text Editor
