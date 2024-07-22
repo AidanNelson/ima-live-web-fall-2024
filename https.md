@@ -1,3 +1,9 @@
+---
+title: HTTPS
+layout: default
+#nav_order: 6
+---
+
 # HTTPS
 
 HTTPS is a “secure” version of HTTP. It uses SSL or TLS to encrypt the contents of HTTP. Traditionally it has been used for banking and other more sensitive content, now it’s use is widespread.

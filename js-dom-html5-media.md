@@ -1,3 +1,9 @@
+---
+title: HTML5 Media
+layout: default
+#nav_order: 6
+---
+
 # JS + DOM + HTML 5 Media (Audio/Video)
 
 HTML 5 introduced support for audio and video natively in the browser (without plugins). This makes removes the need to use proprietary tools and formats (such as Flash, QuickTime, Windows Media, Real) in order to provide basic media capabilities.
