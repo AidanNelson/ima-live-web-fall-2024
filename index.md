@@ -4,6 +4,16 @@ layout: home
 ---
 # IMA Live Web Fall 2024
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+
 Syllabus
 ========
 
