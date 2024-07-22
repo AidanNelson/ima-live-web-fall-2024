@@ -10,7 +10,7 @@ layout: home
     Table of contents
   </summary>
   {: .text-delta }
-1. TOC
+- TOC
 {:toc}
 </details>
 
@@ -357,45 +357,19 @@ Tisch School of the Arts to dedicated to providing its students with a learning 
 
 - Final Projects
 
-  # Week 13:
+# Week 13:
 
-  ### Objectives:
+### Objectives:
 
-  - Traditional Streaming
-  - Physical
-  - Final Project Workshop
+- Traditional Streaming
+- Physical
+- Final Project Workshop
 
-  ### Outline:
+### Outline:
 
-  - [Traditional Streaming + OBS](https://itp.nyu.edu/~sve204/liveweb_spring2023/streaming.html)
-  - Live Data from the physical world (arduino) [example](https://itp.nyu.edu/~sve204/liveweb_spring2023/serial-example.zip)
-  - Final Project Workshop
-
-  ### Assignment(s):
-
-  - Final Project Work
-  - Prepare final project presentation – This presentation should be approximately 10 minutes including feedback.  Please touch on the concept as well as how you accomplished it along with a demonstration.
-
-  # Week 14:
-
-  ### Objective:
-
-  - Final Project Presentations
-    - Expect Guests
-
-  ### Outline:
-
-  - Final Project Presentations
-
-  ### Assignment(s):
-
-  - Final Project Documentation: Post to the class website
-    - Something visual, preferably a screen grab video and/or video of the interaction.
-    - A short description of what it is.
-    - A short description of why you made it.
-    - A short description of how it works.
-    - Add your code for people around the world who want to do similar things.
-    - Describe where you would like to take this project, what more you would like to do with it.
+- [Traditional Streaming + OBS](https://itp.nyu.edu/~sve204/liveweb_spring2023/streaming.html)
+- Live Data from the physical world (arduino) [example](https://itp.nyu.edu/~sve204/liveweb_spring2023/serial-example.zip)
+- Final Project Workshop
 
 ### Assignment(s):
 
