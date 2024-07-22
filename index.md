@@ -16,6 +16,9 @@ nav_order: 1
 </details>
 
 # Syllabus
+<script>
+console.log('test');
+</script>
 
 IMNY-UT 220 / 4 Credits
 
