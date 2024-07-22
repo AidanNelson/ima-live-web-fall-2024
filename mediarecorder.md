@@ -1,3 +1,9 @@
+---
+title: Media Recorder
+layout: default
+#nav_order: 6
+---
+
 # Media Recorder
 
 ## MEDIARECORDER
