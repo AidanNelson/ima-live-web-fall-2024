@@ -23,7 +23,7 @@ HTML 5 introduced support for a canvas element that can be programmatically draw
 </script>
 ```
 
-<canvas width="600" height="600" id="mycanvas" />
+<canvas width="600" height="600" id="mycanvas"></canvas>
 
 <script type="text/javascript">
 	var canvas = document.getElementById('mycanvas');
