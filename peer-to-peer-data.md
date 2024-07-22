@@ -1,3 +1,9 @@
+---
+title: Peer to Peer Data
+layout: default
+#nav_order: 6
+---
+
 # Peer to Peer Data
 
 ## WEBRTC DATA CHANNELS
