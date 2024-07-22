@@ -1,3 +1,9 @@
+---
+title: Becoming Live
+layout: default
+nav_order: 4
+---
+
 # Becoming Live
 
 Contents \[[hide](https://itp.nyu.edu/classes/liveweb-fall2023/becoming-live/#)\]

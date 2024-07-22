@@ -1,3 +1,9 @@
+---
+title: Canvas
+layout: default
+nav_order: 5
+---
+
 # Canvas
 
 # HTML 5 CANVAS

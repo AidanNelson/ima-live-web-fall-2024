@@ -1,3 +1,9 @@
+---
+title: HTML + JS = DOM (Document Object Model)
+layout: default
+nav_order: 3
+---
+
 # HTML + JS = DOM (Document Object Model)
 
 HTML creates a document, JavaScript can access that document through a data structure called the [DOM (or Document Object Model)](https://www.w3schools.com/js/js_htmldom.asp). This structure allows us to access each individual element as an object with a parent/child relationship or directly by ID using “[getElementById](https://www.w3schools.com/js/js_htmldom_elements.asp)“:
