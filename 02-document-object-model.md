@@ -5,9 +5,10 @@ nav_order: 3
 ---
 
 # HTML + JS = DOM (Document Object Model)
+
 {: .no_toc }
 
-<details open markdown="block">
+<details closed markdown="block">
   <summary>
     Table of Contents
   </summary>
@@ -16,62 +17,97 @@ nav_order: 3
 {:toc}
 </details>
 
-
 HTML creates a document, JavaScript can access that document through a data structure called the [DOM (or Document Object Model)](https://www.w3schools.com/js/js_htmldom.asp). This structure allows us to access each individual element as an object with a parent/child relationship or directly by ID using “[getElementById](https://www.w3schools.com/js/js_htmldom_elements.asp)“:
 
-
-### STRAIGHT JAVASCRIPT
+## Vanilla Javascript
 
 After you have access to an Element, you can change it’s properties or call methods on.  One example is to change the HTML that is within it by altering it’s [innerHTML](https://www.w3schools.com/js/js_htmldom_html.asp) attribute.
 
-var thediv = document.getElementById('mydiv');
+```js
+var thediv = document.getElementById("mydiv");
 thediv.innerHTML = "soemthing else";
+```
 
 Some other things that you might want to look over: [createElement and appendChild](http://www.w3schools.com/jsref/met_document_createelement.asp)
 
-### MANIPULATING STYLE ATTRIBUTES
+## Manipulating Style Attributes
 
 Using the DOM, you can manipulate any aspect of an HTML Element, including it’s [CSS](https://www.w3schools.com/js/js_htmldom_css.asp)  [attributes](https://www.w3schools.com/jsref/dom_obj_style.asp) such as [visibility](http://www.w3schools.com/jsref/prop_style_visibility.asp) or [background color](https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp):
 
-var thediv = document.getElementById('mydiv');
+<div class="code-example">
+  <div id="mydiv">my red &lt;div&gt;</div>
+  <script>
+    var thediv = document.getElementById("mydiv");
+    thediv.style.backgroundColor = "red";
+  </script>
+</div>
+```js
+var thediv = document.getElementById("mydiv");
 thediv.style.backgroundColor = "red";
+```
 
-### EVENTS
+## Events
 
 JavaScript in the browser is very often event driven. This means that we can specify code to run when an event takes place. Some of these are driven by the browser doing it’s thing such as loading a page and some are driven by user interaction such as clicking a link or hovering over an element. Regardless of the type of [event](https://www.w3schools.com/jsref/dom_obj_event.asp), we use the “[addEventListener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)” method on all of the DOM elements to specify what to listen for and what code to run when the event is triggered.
 
-element.addEventListener('event name', functionToRun);
+```js
+element.addEventListener("event-name", functionToRun);
 
 function functionToRun() {
-// Code to execute
+  // Code to execute
 }
+```
 
 [JavaScript HTML DOM EventListener](http://www.w3schools.com/js/js_htmldom_eventlistener.asp)
 
-#### load
+### Load
 
 The load event is very important as it is a way to specify what to do when a document is done loading, it also signifies when it is safe to call elements on the DOM:
 
+```js
 function init() {
-var thediv = document.getElementById('mydiv');
-alert(thediv.innerHTML);
+  var thediv = document.getElementById("mydiv");
+  alert(thediv.innerHTML);
 }
-window.addEventListener('load', init);
+window.addEventListener("load", init);
+```
 
-#### mouseover
+### Mouseover
 
-var thediv;
+<div class="code-example">
+<div id="some-div">some cool div</div>
+<script>
+var somediv;
 function init() {
-thediv = document.getElementById('mydiv');
-thediv.addEventListener('mouseover', hideit);
+  somediv = document.getElementById("some-div");
+  somediv.addEventListener("mouseover", makeblue);
+  somediv.addEventListener("mouseleave", makered)
 }
-
-function hideit() {
-thediv.style.visibility = "hidden";
+function makeblue() {
+  somediv.style.backgroundColor = "#0000ff";
 }
-window.addEventListener('load', init);
+function makered() {
+  somediv.style.backgroundColor = "#ff0000";
+}
+window.addEventListener("load", init);
+</script>
+</div>
+```js
+var somediv;
+function init() {
+  somediv = document.getElementById("some-div");
+  somediv.addEventListener("mouseover", makeblue);
+  somediv.addEventListener("mouseleave", makered)
+}
+function makeblue() {
+  somediv.style.backgroundColor = "#0000ff";
+}
+function makered() {
+  somediv.style.backgroundColor = "#ff0000";
+}
+window.addEventListener("load", init);
+```
 
-#### Many many more
+### Many Many More
 
 [Wikipedia DOM Events](http://en.wikipedia.org/wiki/DOM_events)
-

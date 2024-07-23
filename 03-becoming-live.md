@@ -7,7 +7,7 @@ nav_order: 4
 # Becoming Live
 {: .no_toc }
 
-<details open markdown="block">
+<details closed markdown="block">
   <summary>
     Table of Contents
   </summary>
@@ -16,8 +16,7 @@ nav_order: 4
 {:toc}
 </details>
 
-
-### **AJAX**
+## AJAX
 
 AJAX (Asynchronous JavaScript and XML) is a technique for making a new request to a server through JavaScript without reloading an entirely new page from the server.
 
@@ -43,7 +42,7 @@ We can modify the text file that is being called repeatedly by the AJAX at any t
 
 **More Information:** [A Brief History of Ajax by Aaron Swartz](http://www.aaronsw.com/weblog/ajaxhistory)
 
-### WEBSOCKETS
+## WebSockets
 
 One of the drawbacks to the above method is that it can never be truly live, there is a delay in between the requests to the server ([pull request](https://en.wikipedia.org/wiki/Pull_technology)). Also, each of these requests has quite a bit of overhead, each involves the creation of a socket, the sending of the request, the server handling that request, spawning whatever process it needs to and so on.
 
@@ -57,7 +56,7 @@ Here is some JavaScript which illustrates WebSockets
 
 As you can see, this example is connecting to a server called echo.websocket.org with the “ws” protocol. In order to support WebSockets with our own servers, we need to write an application that can understand the protocol and handle the connections. While there are a variety of different languages and servers that can do so, I prefer one, one that through it’s design handles socket event style programming well.
 
-### NODE.JS
+## Node.js
 
 JavaScript (ECMAScript) engine for building server side apps  
 [http://nodejs.org/](http://nodejs.org/)  
@@ -65,89 +64,94 @@ JavaScript (ECMAScript) engine for building server side apps
 
 **Event/Callback driven** – A callback function is registered for a specific event. When that event occurs the callback method is run.
 
-### CHAT
+## Chat
 
 Here is a full chat example that we can start with:
 
-#### server.js
+### Server.Js
 
-    // Express is a node module for building HTTP servers
-    var express = require('express');
-    var app = express();
+```js
+// Express is a node module for building HTTP servers
+var express = require("express");
+var app = express();
 
-    // Tell Express to look in the "public" folder for any files first
-    app.use(express.static('public'));
+// Tell Express to look in the "public" folder for any files first
+app.use(express.static("public"));
 
-    // If the user just goes to the "route" / then run this function
-    app.get('/', function (req, res) {
-      res.send('Hello World!')
+// If the user just goes to the "route" / then run this function
+app.get("/", function (req, res) {
+  res.send("Hello World!");
+});
+
+// Here is the actual HTTP server
+var http = require("http");
+// We pass in the Express object
+var httpServer = http.createServer(app);
+// Listen on port 80
+httpServer.listen(80);
+
+// WebSocket Portion
+// WebSockets work with the HTTP server
+var io = require("socket.io")(httpServer);
+
+// Register a callback function to run when we have an individual connection
+// This is run for each individual user that connects
+io.sockets.on(
+  "connection",
+  // We are given a websocket object in our function
+  function (socket) {
+    console.log("We have a new client: " + socket.id);
+
+    // When this user emits, client side: socket.emit('otherevent',some data);
+    socket.on("chatmessage", function (data) {
+      // Data comes in as whatever was sent, including objects
+      console.log("Received: 'chatmessage' " + data);
+
+      // Send it to all of the clients
+      socket.broadcast.emit("chatmessage", data);
     });
 
-    // Here is the actual HTTP server
-    var http = require('http');
-    // We pass in the Express object
-    var httpServer = http.createServer(app);
-    // Listen on port 80
-    httpServer.listen(80);
+    socket.on("disconnect", function () {
+      console.log("Client has disconnected " + socket.id);
+    });
+  }
+);
+```
 
-    // WebSocket Portion
-    // WebSockets work with the HTTP server
-    var io = require('socket.io')(httpServer);
+### Index.Html
 
-    // Register a callback function to run when we have an individual connection
-    // This is run for each individual user that connects
-    io.sockets.on('connection',
-    	// We are given a websocket object in our function
-    	function (socket) {
+```html
+<html>
+  <head>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript">
+      var socket = io.connect();
 
-    		console.log("We have a new client: " + socket.id);
+      socket.on("connect", function () {
+        console.log("Connected");
+      });
 
-    		// When this user emits, client side: socket.emit('otherevent',some data);
-    		socket.on('chatmessage', function(data) {
-    			// Data comes in as whatever was sent, including objects
-    			console.log("Received: 'chatmessage' " + data);
+      // Receive from any event
+      socket.on("chatmessage", function (data) {
+        console.log(data);
+        document.getElementById("messages").innerHTML =
+          "" + data + +"" + document.getElementById("messages").innerHTML;
+      });
 
-    			// Send it to all of the clients
-    			socket.broadcast.emit('chatmessage', data);
-    		});
-
-    		socket.on('disconnect', function() {
-    			console.log("Client has disconnected " + socket.id);
-    		});
-    	}
-    );
-
-#### index.html
-
-    <html>
-    	<head>
-    		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
-    		<script type="text/javascript">
-    			var socket = io.connect();
-
-    			socket.on('connect', function() {
-    				console.log("Connected");
-    			});
-
-    			// Receive from any event
-    			socket.on('chatmessage', function (data) {
-    				console.log(data);
-    				document.getElementById('messages').innerHTML = "" + data +
-     + "" + document.getElementById('messages').innerHTML;
-    			});
-
-    			var sendmessage = function(message) {
-    				console.log("chatmessage: " + message);
-    				socket.emit('chatmessage', message);
-    			};
-    		</script>
-    	</head>
-     <body>
-     <div id="messages">
-     No Messages Yet
-     </div>
-     <input type="text" id="message" name="message">
-     <input type="submit" value="submit" onclick="sendmessage(document.getElementById('message').value);">
-     </body>
-    </html>
-
+      var sendmessage = function (message) {
+        console.log("chatmessage: " + message);
+        socket.emit("chatmessage", message);
+      };
+    </script>
+  </head>
+  <body>
+    <div id="messages">No Messages Yet</div>
+    <input type="text" id="message" name="message" />
+    <input
+      type="submit"
+      value="submit"
+      onclick="sendmessage(document.getElementById('message').value);"
+    />
+  </body>
+</html>
+```

@@ -8,7 +8,7 @@ nav_order: 2
 # Basic HTML and CSS
 {: .no_toc }
 
-<details open markdown="block">
+<details closed markdown="block">
   <summary>
     Table of Contents
   </summary>
@@ -18,16 +18,16 @@ nav_order: 2
 </details>
 
 
-### HTML
+## HTML
 HTML stands for HyperText Markup Language. While not a traditional programming language, it is the language that is used to create web pages. Typically a markup language is used to define the structure and display of content, HTML is no different.
 
-### Text Editor
+## Text Editor
 
 To write HTML, one of the first things you will need is a plain text editor. Most operating systems come with this capability built-in (TextEdit on the Mac and Notepad on Windows). While these applications work fine, there are some benefits to using a programmer’s text editor such as [Atom](https://atom.io/) or [VS Code](https://code.visualstudio.com/).
 
 In particular, they have line numbering, syntax coloring and other features that will make it easier to work with.
 
-### Tags
+## Tags
 
 HTML is a tag based language. This means that you define the structure of the content of a document using tags.
 
@@ -69,27 +69,27 @@ Here is the source of an HTML example page:
 
 To try this out, copy the above into a new text file and save it as *something*.html then open it in a web browser to see it.
 
-### Comments
+## Comments
 
 Comments in HTML start with `<!--` and end with `-->`
 
-### Nesting
+## Nesting
 
 As you see in the above example, HTML tags are nested within each-other. For instance all of the content you want inside the body of the page is nested within the body start and end tags.
 
-### Indenting
+## Indenting
 
 Indenting isn’t strictly required but it really helps YOU to see the nesting structure of the document. What is inside what and gives you the ability to quickly recognize when you missed closing a tag.
 
-### Attributes
+## Attributes
 
 Tags, such as the `<a>` shown above can have “attributes”. In the case of the `<a>` it is “href” which indicates the URL that the link should be to. Other common attributes are “id” and “class”. “id” allows a specific tag/element on the page to be referenced through JavaScript or CSS (which we’ll cover later). “class” is useful when using CSS to define the design of the page.
 
-### View Source
+## View Source
 
 View Source one of the very fundamental things that made web publishing very successful in the beginning was the inclusion of “View Source” in most web browsers. This allows people to look at the HTML of a page they are viewing so as to understand how it was constructed and learn how to do similar things themselves.
 
-### Images
+## Images
 
 To place an image in a page, you use a URL in the “src” attribute of the img tag:
 
@@ -98,7 +98,7 @@ To place an image in a page, you use a URL in the “src” attribute of the img
 
 ![](./Basic HTML and CSS – IMA Live Web Fall 2023_files/animage.jpg)
 
-### Style
+## Style
 
 You can use some basic CSS (cascading style sheets) in the “style” attribute of tags.
 ```html
@@ -112,7 +112,7 @@ We’ll get deeper into CSS later in the semester.
 [CSS Basics Video](https://stream.nyu.edu/media/CSS+Basics/1_7yydov1h)
 [Better CSS Organization](https://stream.nyu.edu/media/CSS+Basics+-+Better+Organization+with+HTML/1_rp8pd8ip)
 
-### More Information:
+## More Information:
 
 [HTML Tag Reference](https://www.w3schools.com/tags/default.asp)  
 [HTML Special Characters](https://www.w3schools.com/html/html_entities.asp)  
