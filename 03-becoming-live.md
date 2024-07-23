@@ -6,14 +6,6 @@ nav_order: 4
 
 # Becoming Live
 
-Contents \[[hide](./becoming-live/#)\]
-
-- [1 AJAX](./becoming-live/#AJAX)
-- [2 WEBSOCKETS](./becoming-live/#WEBSOCKETS)
-- [3 NODE.JS](./becoming-live/#NODEJS)
-- [4 CHAT](./becoming-live/#CHAT)
-  - [4.1 server.js](./becoming-live/#serverjs)
-  - [4.2 index.html](./becoming-live/#indexhtml)
 
 ### **AJAX**
 
