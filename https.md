@@ -42,4 +42,3 @@ var httpsServer = https.createServer(credentials, app);
 // Default HTTPS Port
 httpsServer.listen(443);
 
-[Edit HTTPS](https://itp.nyu.edu/classes/liveweb-fall2023/wp-admin/post.php?post=1228&action=edit)

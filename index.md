@@ -145,7 +145,7 @@ Tisch School of the Arts to dedicated to providing its students with a learning 
 
 - Introductions
 - Syllabus
-- Lecture/Workshop – [HTML, CSS](https://itp.nyu.edu/classes/liveweb-fall2023/basic-html-and-css/), [javascript, dom manipulation](https://itp.nyu.edu/classes/liveweb-fall2023/html-js-dom-document-object-model/)
+- Lecture/Workshop – [HTML, CSS](./basic-html-and-css/), [javascript, dom manipulation](./html-js-dom-document-object-model/)
 - Lecture/Workshop – Media Elements – Encoding – Controlling
 - [Code from Class](https://drive.google.com/drive/folders/1p_dsynmxw0xkmgwcpft4ffhuwqjyjucm?usp=sharing)
 
@@ -170,10 +170,10 @@ Tisch School of the Arts to dedicated to providing its students with a learning 
 ### Outline:
 
 - Review Homework
-- [AJAX and WebSockets](https://itp.nyu.edu/classes/liveweb-fall2023/becoming-live/)
-- [Server Side JavaScript: Node.js](https://itp.nyu.edu/classes/liveweb-fall2023/becoming-live/)
-- [Chat](https://itp.nyu.edu/classes/liveweb-fall2023/becoming-live/)
-- [Glitch](https://itp.nyu.edu/classes/liveweb-fall2023/becoming-live/)
+- [AJAX and WebSockets](./becoming-live/)
+- [Server Side JavaScript: Node.js](./becoming-live/)
+- [Chat](./becoming-live/)
+- [Glitch](./becoming-live/)
 - [Class Recording](https://nyu.zoom.us/rec/share/oj5gx6h680zjkdckdxtdicznhy0cq45nx3rcqgvsfpdlsdfz4wa_s_ca8jzrf_36._sbkym5grpbgixdy?starttime=1695055154000)
 
 ### Assignment(s):
@@ -191,7 +191,7 @@ Tisch School of the Arts to dedicated to providing its students with a learning 
 - Student Presentation
 - Transmitting Other Data Types
   - Mouse and Other Events
-- [Canvas](https://itp.nyu.edu/classes/liveweb-fall2023/canvas/)
+- [Canvas](./canvas/)
   - Collaborative Drawing
     - [Example from Class](https://glitch.com/edit/#!/p5-colab-simple-draw?path=server.js%3a41%3a2)
 - [Class Recording](https://nyu.zoom.us/rec/share/s9ewyplmcc-o8hhnb_4nmqatpbe9zucixcbzymkaf5l4id0uw9xbreadem2kxzqo.ypwjl1_a9ctnnq4_)
@@ -210,7 +210,7 @@ Tisch School of the Arts to dedicated to providing its students with a learning 
 
 - Review assignment
 - Student Presentation
-- [HTML5 Audio and Video with WebRTC](https://itp.nyu.edu/classes/liveweb-fall2023/live-audio-video/)
+- [HTML5 Audio and Video with WebRTC](./live-audio-video/)
 - [In Class Example of sending canvas through socket](https://glitch.com/edit/#!/olivine-green-emmental?path=public%2findex.html%3a19%3a55)
 - [In Class Example of doing the same with p5.js](https://glitch.com/edit/#!/guiltless-enormous-moon?path=public%2findex.html%3a18%3a12)
 - [Class Recording](https://nyu.zoom.us/rec/share/ijqn8xfpfwyaqpskojzjmm_ypr0risgj4_dsxubq_buqkqlby8ti7064gspxuwwv.syyj73sjyx2xm8sk)
@@ -227,7 +227,7 @@ Tisch School of the Arts to dedicated to providing its students with a learning 
 
 ### Outline:
 
-- [Multi-user Live Audio/Video client and server side](https://itp.nyu.edu/classes/liveweb-fall2023/multiuser-live-audio-video/)
+- [Multi-user Live Audio/Video client and server side](./multiuser-live-audio-video/)
 - [p5LiveMedia](https://github.com/vanevery/p5livemedia)
 - Canvas Streaming
 - Midterm Project Discussion
@@ -265,7 +265,7 @@ Tisch School of the Arts to dedicated to providing its students with a learning 
 ### Outline:
 
 - Midterm Project Presentations
-- [HTTPS](https://itp.nyu.edu/classes/liveweb-fall2023/https/) + Let’s Encrypt
+- [HTTPS](./https/) + Let’s Encrypt
   - [HTTPS video](https://stream.nyu.edu/media/https/1_dp5xxd1s)
   - [Let’s Encrypt video](https://stream.nyu.edu/playlist/dedicated/1_uu3p80ff/1_f22insgv)
 
@@ -288,10 +288,10 @@ Tisch School of the Arts to dedicated to providing its students with a learning 
 
 ### Outline:
 
-- [Data Channels](https://itp.nyu.edu/classes/liveweb-fall2023/peer-to-peer-data/)
+- [Data Channels](./peer-to-peer-data/)
   - [p5LiveMedia Example](https://editor.p5js.org/shawn/sketches/wvh7dfmxn)
-- [MediaRecorder](https://itp.nyu.edu/classes/liveweb-fall2023/media-recorder/)
-- [Saving Files on Node.js](https://itp.nyu.edu/classes/liveweb-fall2023/media-recorder/)
+- [MediaRecorder](./media-recorder/)
+- [Saving Files on Node.js](./media-recorder/)
 
 ### Assignment(s):
 
@@ -336,7 +336,7 @@ Tisch School of the Arts to dedicated to providing its students with a learning 
 
 - Presentation
 - Final Project Proposals
-- [Mobile for Live](https://itp.nyu.edu/classes/liveweb-fall2023/mobile/)
+- [Mobile for Live](./mobile/)
 
 ### Outline:
 
@@ -401,4 +401,3 @@ Tisch School of the Arts to dedicated to providing its students with a learning 
   - Add your code for people around the world who want to do similar things.
   - Describe where you would like to take this project, what more you would like to do with it.
 
-[Edit Syllabus](https://itp.nyu.edu/classes/liveweb-fall2023/wp-admin/post.php?post=2&action=edit)

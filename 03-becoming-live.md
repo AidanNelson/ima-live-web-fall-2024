@@ -6,14 +6,14 @@ nav_order: 4
 
 # Becoming Live
 
-Contents \[[hide](https://itp.nyu.edu/classes/liveweb-fall2023/becoming-live/#)\]
+Contents \[[hide](./becoming-live/#)\]
 
-- [1 AJAX](https://itp.nyu.edu/classes/liveweb-fall2023/becoming-live/#AJAX)
-- [2 WEBSOCKETS](https://itp.nyu.edu/classes/liveweb-fall2023/becoming-live/#WEBSOCKETS)
-- [3 NODE.JS](https://itp.nyu.edu/classes/liveweb-fall2023/becoming-live/#NODEJS)
-- [4 CHAT](https://itp.nyu.edu/classes/liveweb-fall2023/becoming-live/#CHAT)
-  - [4.1 server.js](https://itp.nyu.edu/classes/liveweb-fall2023/becoming-live/#serverjs)
-  - [4.2 index.html](https://itp.nyu.edu/classes/liveweb-fall2023/becoming-live/#indexhtml)
+- [1 AJAX](./becoming-live/#AJAX)
+- [2 WEBSOCKETS](./becoming-live/#WEBSOCKETS)
+- [3 NODE.JS](./becoming-live/#NODEJS)
+- [4 CHAT](./becoming-live/#CHAT)
+  - [4.1 server.js](./becoming-live/#serverjs)
+  - [4.2 index.html](./becoming-live/#indexhtml)
 
 ### **AJAX**
 
@@ -149,4 +149,3 @@ Here is a full chat example that we can start with:
      </body>
     </html>
 
-[Edit Becoming Live](https://itp.nyu.edu/classes/liveweb-fall2023/wp-admin/post.php?post=3628&action=edit)

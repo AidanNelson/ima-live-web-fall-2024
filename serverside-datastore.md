@@ -48,4 +48,3 @@ Here is some quick code to show you how it works. See the [nedb documentation](
 
 [p5 + MediaRecorder + Glitch + Nedb](https://glitch.com/~p5-mediarecorder-store-files-nedb)
 
-[Edit Serverside Datastore](https://itp.nyu.edu/classes/liveweb-fall2023/wp-admin/post.php?post=4860&action=edit)

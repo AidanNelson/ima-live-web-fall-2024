@@ -40,4 +40,3 @@ Reference: [W3 Schools – HTML5 Canvas](http://www.w3schools.com/html/html5_ca
 Tutorial: [Mozilla Developer Network – Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Canvas_tutorial?redirectlocale=en-US&redirectslug=Canvas_tutorial)  
 Examples: [21 Ridiculously Impressive HTML5 Canvas Experiments](http://net.tutsplus.com/articles/web-roundups/21-ridiculously-impressive-html5-canvas-experiments/)
 
-[Edit Canvas](https://itp.nyu.edu/classes/liveweb-fall2023/wp-admin/post.php?post=3481&action=edit)

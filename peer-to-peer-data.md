@@ -54,4 +54,3 @@ p5lm.on('data', gotData);
 
 [Example](https://editor.p5js.org/shawn/sketches/w83C-S6DU)
 
-[Edit Peer to Peer Data](https://itp.nyu.edu/classes/liveweb-fall2023/wp-admin/post.php?post=4794&action=edit)

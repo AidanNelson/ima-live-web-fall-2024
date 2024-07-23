@@ -64,4 +64,3 @@ socket.emit('image', dataUrl);
 
 **More Information:** [Capturing Audio and Video in HTML5](http://www.html5rocks.com/en/tutorials/getusermedia/intro/) (a bit out of date)
 
-[Edit Live Audio/Video](https://itp.nyu.edu/classes/liveweb-fall2023/wp-admin/post.php?post=4521&action=edit)

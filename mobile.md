@@ -68,4 +68,3 @@ More advanced examples
 - [Mobile Device Motion Example](https://editor.p5js.org/shawn/sketches/kCGb4yHim) (works on iOS and Android in p5)
 - [Mobile Orientation + Video Example](https://editor.p5js.org/shawn/sketches/NpqagmgyY)
 
-[Edit Mobile](https://itp.nyu.edu/classes/liveweb-fall2023/wp-admin/post.php?post=4966&action=edit)

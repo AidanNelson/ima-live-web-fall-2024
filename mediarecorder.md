@@ -106,4 +106,3 @@ Then on the server side, when you receive it, you can write it to a file using t
 
 [p5 example on Glitch](https://glitch.com/~p5-mediarecorder-and-node-file-storage)
 
-[Edit Media Recorder](https://itp.nyu.edu/classes/liveweb-fall2023/wp-admin/post.php?post=4855&action=edit)

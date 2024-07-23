@@ -8,14 +8,14 @@ nav_order: 3
 
 HTML creates a document, JavaScript can access that document through a data structure called the [DOM (or Document Object Model)](https://www.w3schools.com/js/js_htmldom.asp). This structure allows us to access each individual element as an object with a parent/child relationship or directly by ID using “[getElementById](https://www.w3schools.com/js/js_htmldom_elements.asp)“:
 
-Contents \[[hide](https://itp.nyu.edu/classes/liveweb-fall2023/html-js-dom-document-object-model/#)\]
+Contents \[[hide](./html-js-dom-document-object-model/#)\]
 
-- [1 STRAIGHT JAVASCRIPT](https://itp.nyu.edu/classes/liveweb-fall2023/html-js-dom-document-object-model/#STRAIGHT_JAVASCRIPT)
-- [2 MANIPULATING STYLE ATTRIBUTES](https://itp.nyu.edu/classes/liveweb-fall2023/html-js-dom-document-object-model/#MANIPULATING_STYLE_ATTRIBUTES)
-- [3 EVENTS](https://itp.nyu.edu/classes/liveweb-fall2023/html-js-dom-document-object-model/#EVENTS)
-  - [3.1 load](https://itp.nyu.edu/classes/liveweb-fall2023/html-js-dom-document-object-model/#load)
-  - [3.2 mouseover](https://itp.nyu.edu/classes/liveweb-fall2023/html-js-dom-document-object-model/#mouseover)
-  - [3.3 Many many more](https://itp.nyu.edu/classes/liveweb-fall2023/html-js-dom-document-object-model/#Many_many_more)
+- [1 STRAIGHT JAVASCRIPT](./html-js-dom-document-object-model/#STRAIGHT_JAVASCRIPT)
+- [2 MANIPULATING STYLE ATTRIBUTES](./html-js-dom-document-object-model/#MANIPULATING_STYLE_ATTRIBUTES)
+- [3 EVENTS](./html-js-dom-document-object-model/#EVENTS)
+  - [3.1 load](./html-js-dom-document-object-model/#load)
+  - [3.2 mouseover](./html-js-dom-document-object-model/#mouseover)
+  - [3.3 Many many more](./html-js-dom-document-object-model/#Many_many_more)
 
 ### STRAIGHT JAVASCRIPT
 
@@ -72,4 +72,3 @@ window.addEventListener('load', init);
 
 [Wikipedia DOM Events](http://en.wikipedia.org/wiki/DOM_events)
 
-[Edit HTML + JS = DOM (Document Object Model)](https://itp.nyu.edu/classes/liveweb-fall2023/wp-admin/post.php?post=406&action=edit)

@@ -106,5 +106,3 @@ function mouseMoved() {
 }
 
 [Here is an example](https://glitch.com/edit/#!/p-5-socket-example)
-
-[Edit WebSockets with p5.js](https://itp.nyu.edu/classes/liveweb-fall2023/wp-admin/post.php?post=4515&action=edit)

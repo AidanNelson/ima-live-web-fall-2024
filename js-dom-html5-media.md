@@ -8,17 +8,17 @@ layout: default
 
 HTML 5 introduced support for audio and video natively in the browser (without plugins). This makes removes the need to use proprietary tools and formats (such as Flash, QuickTime, Windows Media, Real) in order to provide basic media capabilities.
 
-Contents \[[hide](https://itp.nyu.edu/classes/liveweb-fall2023/js-dom-html-5-media-audio-video/#)\]
+Contents \[[hide](./js-dom-html-5-media-audio-video/#)\]
 
-- [1 MEDIA ELEMENTS](https://itp.nyu.edu/classes/liveweb-fall2023/js-dom-html-5-media-audio-video/#MEDIA_ELEMENTS)
-  - [1.1 VIDEO](https://itp.nyu.edu/classes/liveweb-fall2023/js-dom-html-5-media-audio-video/#VIDEO)
-    - [1.1.1 Basic Tag Usage](https://itp.nyu.edu/classes/liveweb-fall2023/js-dom-html-5-media-audio-video/#Basic_Tag_Usage)
-    - [1.1.2 Formats/Codecs](https://itp.nyu.edu/classes/liveweb-fall2023/js-dom-html-5-media-audio-video/#FormatsCodecs)
-    - [1.1.3 Supporting Multiple Formats](https://itp.nyu.edu/classes/liveweb-fall2023/js-dom-html-5-media-audio-video/#Supporting_Multiple_Formats)
-  - [1.2 AUDIO](https://itp.nyu.edu/classes/liveweb-fall2023/js-dom-html-5-media-audio-video/#AUDIO)
-    - [1.2.1 Basic Tag Usage](https://itp.nyu.edu/classes/liveweb-fall2023/js-dom-html-5-media-audio-video/#Basic_Tag_Usage-2)
-    - [1.2.2 Supporting Multiple Formats](https://itp.nyu.edu/classes/liveweb-fall2023/js-dom-html-5-media-audio-video/#Supporting_Multiple_Formats-2)
-  - [1.3 JAVASCRIPT](https://itp.nyu.edu/classes/liveweb-fall2023/js-dom-html-5-media-audio-video/#JAVASCRIPT)
+- [1 MEDIA ELEMENTS](./js-dom-html-5-media-audio-video/#MEDIA_ELEMENTS)
+  - [1.1 VIDEO](./js-dom-html-5-media-audio-video/#VIDEO)
+    - [1.1.1 Basic Tag Usage](./js-dom-html-5-media-audio-video/#Basic_Tag_Usage)
+    - [1.1.2 Formats/Codecs](./js-dom-html-5-media-audio-video/#FormatsCodecs)
+    - [1.1.3 Supporting Multiple Formats](./js-dom-html-5-media-audio-video/#Supporting_Multiple_Formats)
+  - [1.2 AUDIO](./js-dom-html-5-media-audio-video/#AUDIO)
+    - [1.2.1 Basic Tag Usage](./js-dom-html-5-media-audio-video/#Basic_Tag_Usage-2)
+    - [1.2.2 Supporting Multiple Formats](./js-dom-html-5-media-audio-video/#Supporting_Multiple_Formats-2)
+  - [1.3 JAVASCRIPT](./js-dom-html-5-media-audio-video/#JAVASCRIPT)
 
 ## MEDIA ELEMENTS
 
@@ -116,4 +116,3 @@ Example: [Video JavaScript Example](https://itp.nyu.edu/~sve204/dwd_spring2018/
 
 More Information: [HTML5 Rocks – Multimedia](http://www.html5rocks.com/en/features/multimedia)
 
-[Edit JS + DOM + HTML 5 Media (Audio/Video)](https://itp.nyu.edu/classes/liveweb-fall2023/wp-admin/post.php?post=537&action=edit)
