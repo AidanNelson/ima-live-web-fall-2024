@@ -5,6 +5,16 @@ nav_order: 6
 ---
 
 # Live Audio/Video
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 ## WEBRTC
 

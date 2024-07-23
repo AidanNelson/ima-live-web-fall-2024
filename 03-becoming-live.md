@@ -5,6 +5,16 @@ nav_order: 4
 ---
 
 # Becoming Live
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 
 ### **AJAX**

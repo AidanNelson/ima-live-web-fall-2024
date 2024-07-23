@@ -5,6 +5,16 @@ layout: default
 ---
 
 # WebSockets with p5.js
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 WebSockets with their real-time capabilities can be used with a wide variety (any) of JavaScript libraries.  p5.js is no exception!  This opens up the possibility for p5.js sketches to become multi-user or collaborative.
 

@@ -5,6 +5,16 @@ layout: default
 ---
 
 # JS + DOM + HTML 5 Media (Audio/Video)
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 HTML 5 introduced support for audio and video natively in the browser (without plugins). This makes removes the need to use proprietary tools and formats (such as Flash, QuickTime, Windows Media, Real) in order to provide basic media capabilities.
 

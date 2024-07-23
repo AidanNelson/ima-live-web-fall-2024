@@ -5,6 +5,16 @@ nav_order: 5
 ---
 
 # Canvas
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 # HTML 5 CANVAS
 

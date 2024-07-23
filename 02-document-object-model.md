@@ -5,6 +5,17 @@ nav_order: 3
 ---
 
 # HTML + JS = DOM (Document Object Model)
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 
 HTML creates a document, JavaScript can access that document through a data structure called the [DOM (or Document Object Model)](https://www.w3schools.com/js/js_htmldom.asp). This structure allows us to access each individual element as an object with a parent/child relationship or directly by ID using “[getElementById](https://www.w3schools.com/js/js_htmldom_elements.asp)“:
 

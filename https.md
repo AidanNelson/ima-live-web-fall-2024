@@ -5,6 +5,16 @@ layout: default
 ---
 
 # HTTPS
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 HTTPS is a “secure” version of HTTP. It uses SSL or TLS to encrypt the contents of HTTP. Traditionally it has been used for banking and other more sensitive content, now it’s use is widespread.
 

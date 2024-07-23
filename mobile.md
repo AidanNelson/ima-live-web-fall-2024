@@ -5,6 +5,16 @@ layout: default
 ---
 
 # Mobile
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 It used to be the case that I would have to prepare a specific set of notes related to doing live web types of things on mobile devices. Thankfully, this has changed a great deal. On Android, using Chrome or Firefox, you can do all or almost all of the same things with WebRTC and Web Sockets that you can do on the desktop version of those applications.
 

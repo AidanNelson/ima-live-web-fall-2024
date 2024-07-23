@@ -4,21 +4,18 @@ layout: home
 nav_order: 1
 ---
 
-# IMA Live Web Fall 2024
+# IMA Live Web Fall 2024 Syllabus
+{: .no_toc }
 
 <details open markdown="block">
   <summary>
-    Table of contents
+    Table of Contents
   </summary>
   {: .text-delta }
 - TOC
 {:toc}
 </details>
 
-# Syllabus
-<script>
-console.log('test');
-</script>
 
 IMNY-UT 220 / 4 Credits
 

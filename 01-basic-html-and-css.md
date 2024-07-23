@@ -6,10 +6,11 @@ nav_order: 2
 
 
 # Basic HTML and CSS
+{: .no_toc }
 
 <details open markdown="block">
   <summary>
-    Table of contents
+    Table of Contents
   </summary>
   {: .text-delta }
 - TOC
