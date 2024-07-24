@@ -1,7 +1,8 @@
 ---
 title: Peer to Peer Data
 layout: default
-#nav_order: 6
+nav_order: 110
+permalink: peer-to-peer-data
 ---
 
 # Peer to Peer Data

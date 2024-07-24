@@ -1,7 +1,8 @@
 ---
 title: HTML5 Media
 layout: default
-#nav_order: 6
+nav_order: 30
+permalink: html5-media
 ---
 
 # JS + DOM + HTML 5 Media (Audio/Video)

@@ -1,7 +1,8 @@
 ---
 title: HTTPS
 layout: default
-#nav_order: 6
+nav_order: 90
+permalink: https
 ---
 
 # HTTPS

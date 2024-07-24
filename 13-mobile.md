@@ -1,7 +1,8 @@
 ---
 title: Mobile
 layout: default
-#nav_order: 6
+nav_order: 130
+permalink: mobile
 ---
 
 # Mobile

@@ -1,7 +1,8 @@
 ---
 title: Canvas
 layout: default
-nav_order: 5
+nav_order: 50
+permalink: canvas
 ---
 
 # Canvas

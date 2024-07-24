@@ -1,7 +1,8 @@
 ---
 title: HTML + JS = DOM (Document Object Model)
 layout: default
-nav_order: 3
+nav_order: 20
+permalink: document-object-model
 ---
 
 # HTML + JS = DOM (Document Object Model)

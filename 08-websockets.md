@@ -1,7 +1,8 @@
 ---
-title: WebSockets
+title: Websockets with p5.js
 layout: default
-#nav_order: 6
+nav_order: 80
+permalink: websockets-with-p5
 ---
 
 # WebSockets with p5.js
