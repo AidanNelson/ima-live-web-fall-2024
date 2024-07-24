@@ -63,7 +63,7 @@ setTimeout(draw,3000);
 
 draw();
 
-From the canvas, you can create an image and send that via Socket.io to everyone else, making a poor persons video server:
+From the canvas, you can create an image and send that via Socket.io to everyone else, making simple video server:
 
 // Create a data URL from the canvas
 var dataUrl = thecanvas.toDataURL('image/webp', 1);
