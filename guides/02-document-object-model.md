@@ -7,7 +7,6 @@ parent: Guides
 ---
 
 # HTML + JS = DOM (Document Object Model)
-
 {: .no_toc }
 
 <details closed markdown="block">
@@ -21,7 +20,7 @@ parent: Guides
 
 HTML creates a document, JavaScript can access that document through a data structure called the [DOM (or Document Object Model)](https://www.w3schools.com/js/js_htmldom.asp). This structure allows us to access each individual element as an object with a parent/child relationship or directly by ID using “[getElementById](https://www.w3schools.com/js/js_htmldom_elements.asp)“:
 
-## Vanilla Javascript
+## Accessing HTML elements with Javascript
 
 After you have access to an Element, you can change it’s properties or call methods on.  One example is to change the HTML that is within it by altering it’s [innerHTML](https://www.w3schools.com/js/js_htmldom_html.asp) attribute.
 
@@ -77,7 +76,7 @@ window.addEventListener("load", init);
 ### Mouseover
 
 <div class="code-example">
-<div id="some-div">some cool div</div>
+<div id="some-div" style="border: 1px solid green; padding: 5px; background-color: red; color: white;">Hover over me with your mouse!</div>
 <script>
 var somediv;
 function init() {
