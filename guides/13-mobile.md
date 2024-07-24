@@ -3,6 +3,7 @@ title: Mobile
 layout: default
 nav_order: 130
 permalink: mobile
+parent: Guides
 ---
 
 # Mobile

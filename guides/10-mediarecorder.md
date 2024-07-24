@@ -3,6 +3,7 @@ title: Media Recorder
 layout: default
 nav_order: 100
 permalink: mediarecorder
+parent: Guides
 ---
 
 # Media Recorder

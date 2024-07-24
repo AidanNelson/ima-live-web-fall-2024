@@ -3,6 +3,7 @@ title: Serverside Datastore
 layout: default
 nav_order: 120
 permalink: serverside-datastore
+parent: Guides
 ---
 
 # Serverside Datastore

@@ -3,6 +3,7 @@ title: Becoming Live
 layout: default
 nav_order: 40
 permalink: becoming-live
+parent: Guides
 ---
 
 # Becoming Live

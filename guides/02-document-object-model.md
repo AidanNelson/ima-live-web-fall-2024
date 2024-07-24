@@ -3,6 +3,7 @@ title: HTML + JS = DOM (Document Object Model)
 layout: default
 nav_order: 20
 permalink: document-object-model
+parent: Guides
 ---
 
 # HTML + JS = DOM (Document Object Model)

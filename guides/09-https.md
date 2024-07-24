@@ -3,6 +3,7 @@ title: HTTPS
 layout: default
 nav_order: 90
 permalink: https
+parent: Guides
 ---
 
 # HTTPS

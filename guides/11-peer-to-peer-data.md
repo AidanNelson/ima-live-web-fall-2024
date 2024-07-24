@@ -3,6 +3,7 @@ title: Peer to Peer Data
 layout: default
 nav_order: 110
 permalink: peer-to-peer-data
+parent: Guides
 ---
 
 # Peer to Peer Data

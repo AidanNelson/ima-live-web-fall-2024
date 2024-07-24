@@ -3,6 +3,7 @@ title: HTML5 Media
 layout: default
 nav_order: 30
 permalink: html5-media
+parent: Guides
 ---
 
 # JS + DOM + HTML 5 Media (Audio/Video)

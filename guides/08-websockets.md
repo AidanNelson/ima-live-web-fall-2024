@@ -3,6 +3,7 @@ title: Websockets with p5.js
 layout: default
 nav_order: 80
 permalink: websockets-with-p5
+parent: Guides
 ---
 
 # WebSockets with p5.js

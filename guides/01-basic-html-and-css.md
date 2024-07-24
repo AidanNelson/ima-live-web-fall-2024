@@ -3,6 +3,7 @@ title: Basic HTML and CSS
 layout: default
 nav_order: 10
 permalink: basic-html-and-css
+parent: Guides
 ---
 
 

@@ -3,6 +3,7 @@ title: Canvas
 layout: default
 nav_order: 50
 permalink: canvas
+parent: Guides
 ---
 
 # Canvas
