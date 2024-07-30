@@ -7,6 +7,7 @@ parent: Guides
 ---
 
 # Becoming Live
+
 {: .no_toc }
 
 <details closed markdown="block">
@@ -24,15 +25,36 @@ AJAX (Asynchronous JavaScript and XML) is a technique for making a new request t
 
 Originally it was made possible by the [XMLHttpRequest](http://www.w3schools.com/XML/xml_http.asp) object although more recently the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) was introduced which makes it easier to work with.
 
-> `fetch('[http://example.com/something.json](http://example.com/something.json)').then(function(response) {`
->
-> `return response.json();`
->
-> `}).then(function(data) {`
->
-> `console.log(data);`
->
-> `});`
+<div id="fetch-example-div" class="code-example">
+<h3>Get info from the Art Institute of Chicago's Open API:</h3>
+<button id="fetch-button">Click Me</button>
+<script>
+let url = "https://api.artic.edu/api/v1/artworks/129884";
+document.getElementById('fetch-button').addEventListener('click',getInfo);
+function getInfo(){
+fetch(url)
+.then(function (response) {
+return response.json();
+})
+.then(function (data) {
+console.log(data);
+document.getElementById("fetch-example-div").innerHTML += data.data.description;
+});
+}
+</script>
+</div>
+```js
+let url = "https://api.artic.edu/api/v1/artworks/129884";
+
+fetch(url)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    console.log(data);
+  }
+
+````
 
 Here is a quick [AJAX example](http://itp.nyu.edu/~sve204/connect_spring2021/ajax_example.zip) which loads content from a text file on a server (repeatedly)
 
@@ -60,8 +82,8 @@ As you can see, this example is connecting to a server called echo.websocket.org
 
 ## Node.js
 
-JavaScript (ECMAScript) engine for building server side apps  
-[http://nodejs.org/](http://nodejs.org/)  
+JavaScript (ECMAScript) engine for building server side apps
+[http://nodejs.org/](http://nodejs.org/)
 [Uses V8](https://developers.google.com/v8/)
 
 **Event/Callback driven** – A callback function is registered for a specific event. When that event occurs the callback method is run.
@@ -118,7 +140,7 @@ io.sockets.on(
     });
   }
 );
-```
+````
 
 ### Index.Html
 
