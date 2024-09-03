@@ -47,12 +47,12 @@ document.getElementById("fetch-example-div").innerHTML += data.data.description;
 let url = "https://api.artic.edu/api/v1/artworks/129884";
 
 fetch(url)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (data) {
-    console.log(data);
-  }
+.then(function (response) {
+return response.json();
+})
+.then(function (data) {
+console.log(data);
+}
 
 ````
 
