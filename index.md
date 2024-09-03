@@ -3,7 +3,7 @@ title: Syllabus
 layout: home
 nav_order: 1
 ---
-
+<script src="./examples/mouseScript.js"></script>
 # IMA Live Web Fall 2024 Syllabus
 {: .no_toc }
 
@@ -150,3 +150,4 @@ Tisch School of the Arts is dedicated to providing its students with a learning 
 ## STATEMENT OF PRINCIPLE
 
 Teachers and students work together to create a supportive learning environment. The educational experience in the classroom is one that is enhanced by integrating varying perspectives and learning modes brought by students.
+

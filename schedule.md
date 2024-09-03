@@ -5,6 +5,7 @@ nav_order: 2
 ---
 
 # Weekly Schedule
+
 {: .no_toc }
 
 <details closed markdown="block">
@@ -198,8 +199,6 @@ nav_order: 2
 
 ### Objectives
 
--   Special Guest: [Aidan Nelson](https://www.aidanjnelson.com/)
-    -   [3D + WebRTC](https://docs.google.com/presentation/d/1wxnadsk6l-wqad1jvguh5ms4bnyeryuodljcbkihgxk/edit#slide=id.p)
 -   Presentations
 -   Final Project Discussion
 
@@ -264,7 +263,6 @@ nav_order: 2
 ### Objective
 
 -   Final Project Presentations
-    -   Expect Guests
 
 ### Outline
 
