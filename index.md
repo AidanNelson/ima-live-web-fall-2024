@@ -26,6 +26,7 @@ IMNY-UT 260 008 / 4 Credits
 -   **Drop-In Office Hours:** [Book Here](https://calendar.app.google/pnyUTva7uRJjhWRG6)
 -   **Shared Class Resources:** [Class Website](https://aidannelson.github.io/ima-live-web-fall-2024/)
 -   **Coding Lab:** [Learn More](https://codinglab.itp.io/)
+-   **Miro Board (Post Assignments Here)**: Check your email for link
 
 ## COURSE DESCRIPTION
 
