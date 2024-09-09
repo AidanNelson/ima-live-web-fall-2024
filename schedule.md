@@ -5,7 +5,6 @@ nav_order: 2
 ---
 
 # Weekly Schedule
-
 {: .no_toc }
 
 <details closed markdown="block">
