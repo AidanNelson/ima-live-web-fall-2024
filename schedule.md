@@ -27,7 +27,7 @@ nav_order: 2
 
 -   Introductions
 -   Syllabus
--   Lecture/Workshop – [HTML, CSS](./basic-html-and-css), [javascript, dom manipulation](./document-object-model)
+-   Lecture/Workshop – [HTML, CSS](./basic-html-and-css), [javascript & DOM manipulation](./document-object-model)
 -   Lecture/Workshop – Media Elements – Encoding – Controlling
 -   Code from Class
 
