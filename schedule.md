@@ -27,7 +27,7 @@ nav_order: 2
 
 -   Introductions
 -   Syllabus
--   Lecture/Workshop – [HTML, CSS](./basic-html-and-css/), [javascript, dom manipulation](./document-object-model/)
+-   Lecture/Workshop – [HTML, CSS](./basic-html-and-css), [javascript, dom manipulation](./document-object-model)
 -   Lecture/Workshop – Media Elements – Encoding – Controlling
 -   Code from Class
 
@@ -54,10 +54,10 @@ nav_order: 2
 ### Outline
 
 -   Review Homework
--   [AJAX and WebSockets](./becoming-live/)
--   [Server Side JavaScript: Node.js](./becoming-live/)
--   [Chat](./becoming-live/)
--   [Glitch](./becoming-live/)
+-   [AJAX and WebSockets](./becoming-live)
+-   [Server Side JavaScript: Node.js](./becoming-live)
+-   [Chat](./becoming-live)
+-   [Glitch](./becoming-live)
 
 ### Assignments
 
@@ -74,7 +74,7 @@ nav_order: 2
 -   Student Presentation
 -   Transmitting Other Data Types
     -   Mouse and Other Events
--   [Canvas](./canvas/)
+-   [Canvas](./canvas)
     -   Collaborative Drawing
         -   [Example from Class](https://glitch.com/edit/#!/p5-colab-simple-draw?path=server.js%3a41%3a2)
 
@@ -92,7 +92,7 @@ nav_order: 2
 
 -   Review assignment
 -   Student Presentation
--   [HTML5 Audio and Video with WebRTC](./live-audio-video/)
+-   [HTML5 Audio and Video with WebRTC](./live-audio-video)
 -   [In Class Example of sending canvas through socket](https://glitch.com/edit/#!/olivine-green-emmental?path=public%2findex.html%3a19%3a55)
 -   [In Class Example of doing the same with p5.js](https://glitch.com/edit/#!/guiltless-enormous-moon?path=public%2findex.html%3a18%3a12)
 
@@ -108,7 +108,7 @@ nav_order: 2
 
 ### Outline
 
--   [Multi-user Live Audio/Video client and server side](./multiuser-live-audio-video/)
+-   [Multi-user Live Audio/Video client and server side](./multiuser-live-audio-video)
 -   [p5LiveMedia](https://github.com/vanevery/p5livemedia)
 -   Canvas Streaming
 -   Midterm Project Discussion
@@ -146,7 +146,7 @@ nav_order: 2
 ### Outline
 
 -   Midterm Project Presentations
--   [HTTPS](./https/) + Let’s Encrypt
+-   [HTTPS](./https) + Let’s Encrypt
     -   [HTTPS video](https://stream.nyu.edu/media/https/1_dp5xxd1s)
     -   [Let’s Encrypt video](https://stream.nyu.edu/playlist/dedicated/1_uu3p80ff/1_f22insgv)
 
@@ -169,10 +169,10 @@ nav_order: 2
 
 ### Outline
 
--   [Data Channels](./peer-to-peer-data/)
+-   [Data Channels](./peer-to-peer-data)
     -   [p5LiveMedia Example](https://editor.p5js.org/shawn/sketches/wvh7dfmxn)
--   [MediaRecorder](./media-recorder/)
--   [Saving Files on Node.js](./media-recorder/)
+-   [MediaRecorder](./media-recorder)
+-   [Saving Files on Node.js](./media-recorder)
 
 ### Assignments
 
@@ -188,7 +188,7 @@ nav_order: 2
 
 ### Outline
 
--   Field Trip: [CultureHub](https://www.culturehub.org/) (47 great jones, 3rd fl.)
+-   Field Trip: [CultureHub](https://www.culturehub.org) (47 great jones, 3rd fl.)
 -   Simple Server Side Databases
 
 ### Assignments
@@ -214,7 +214,7 @@ nav_order: 2
 
 -   Presentation
 -   Final Project Proposals
--   [Mobile for Live](./mobile/)
+-   [Mobile for Live](./mobile)
 
 ### Outline
 
