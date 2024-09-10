@@ -28,23 +28,36 @@ nav_order: 2
 -   Syllabus
 -   Lecture/Workshop – [HTML, CSS](./basic-html-and-css), [javascript & DOM manipulation](./document-object-model)
 -   Lecture/Workshop – Media Elements – Encoding – Controlling
--   Code from Class
+-   [Code from Class](https://editor.p5js.org/AidanNelson/sketches/6DQMNdAGR)
 
 ### Assignments
 
--   Videos to watch
-
+- **Read** through the guides on [HTML & CSS](./basic-html-and-css) and [Javascript & DOM Manipulation](./document-object-model)
+- **Watch** the following videos:
     -   Vanilla HTML/CSS/JavaScript
         -   [HTML Basics](https://stream.nyu.edu/media/html%20basics/1_8ts8q7gu)
         -   [CSS Basics](https://stream.nyu.edu/media/css%20basics/1_7yydov1h)
         -   [CSS Basics – Better Organization](https://stream.nyu.edu/media/css%20basics%20-%20better%20organization%20with%20html/1_rp8pd8ip)
         -   [JavaScript DOM Basics](https://stream.nyu.edu/media/javascript%20dom%20basics/1_s9ufrrai)
 
--   Write a blog post detailing the last “live” media you consumed.  Answer these questions: What was it?  Why did you consume it “live” or in real time?  How was your relationship to the media or others affected through the “live” consumption of it? What was missing in your experience?
+-   **Write** a blog post detailing the last “live” media you consumed.  Answer these questions: 
+    - What was it?  
+    - Why did you consume it “live” or in real time?  
+    - How was your relationship to the media or others affected through the “live” consumption of it? 
+    - What was missing in your experience?
 
--   Create a self-portrait on a web page using media elements, HTML, CSS, and  JavaScript.
+-   **Create** a self-portrait on a web page using HTML, CSS, and  JavaScript.  Start on the p5.js web editor, open the `index.html` file and make your edits there.  You may use p5.js as *part* of your sketch if you like.  In addition, please use at least (2) of the following elements:
+    - [HTML Media Elements](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement): `<video>` or `<audio>`
+    - An image tag: `<img>`
+    - Use Javascript to change the color, size, font or position of an HTML element
+    - Use CSS to animate an element following [this guide](https://www.w3schools.com/css/css3_animations.asp)
+    - Use CSS to change a style when someone hovers their mouse pointer over an element following [this guide](https://www.w3schools.com/cssref/sel_hover.php)
+    - Create a list with HTML using the `<ul>` tag following [this guide](https://www.w3schools.com/tags/tag_ul.asp)
+    - **Advanced**: Use Javascript to add a click-interaction on an element following [this guide](https://www.w3schools.com/jsref/event_onclick.asp)
 
-## Week 2: 
+
+
+## Week 2
 
 ### Objectives
 
@@ -62,7 +75,7 @@ nav_order: 2
 
 -   Reimagine chat!  Starting with the example from class, modify the front end (public/index.html) – adding any features or design/interaction that you would love to see in chat.  You might need to do a bit of work on the server as well – depending on what you want to happen.
 
-## Week 3: 
+## Week 3
 
 ### Objectives
 
@@ -81,7 +94,7 @@ nav_order: 2
 
 -   Using Sockets, make a collaborative project using realtime data.  Perhaps making a collaborative painting program – or something more imaginative!
 
-## Week 4: 
+## Week 4
 
 ### Objectives
 
@@ -187,7 +200,6 @@ nav_order: 2
 
 ### Outline
 
--   Field Trip: [CultureHub](https://www.culturehub.org) (47 great jones, 3rd fl.)
 -   Simple Server Side Databases
 
 ### Assignments
