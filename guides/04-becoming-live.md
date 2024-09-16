@@ -76,7 +76,18 @@ WebSockets have very little to do with traditional HTTP as it is a thin wrapper 
 
 Here is some JavaScript which illustrates WebSockets
 
-    `var websocket = new WebSocket("ws://echo.websocket.org");  // this server no longer exists 			  	// Callbacks  	websocket.onopen = function(evt) { alert("onopen " + evt) };  	websocket.onclose = function(evt) { alert("onclose " + evt) };  	websocket.onmessage = function(evt) { alert("onmessage " + evt.data) };  	websocket.onerror = function(evt) { alert("onerror " + evt) };  	// Sending 	websocket.send("hi");`
+```js
+var websocket = new WebSocket("ws://echo.websocket.org");  // this server no longer exists 		
+	  	
+// Callbacks  	
+websocket.onopen = function(evt) { alert("onopen " + evt) };  	
+websocket.onclose = function(evt) { alert("onclose " + evt) };  	
+websocket.onmessage = function(evt) { alert("onmessage " + evt.data) };  	
+websocket.onerror = function(evt) { alert("onerror " + evt) };  	
+
+// Sending 	
+websocket.send("hi");
+```
 
 As you can see, this example is connecting to a server called echo.websocket.org with the “ws” protocol. In order to support WebSockets with our own servers, we need to write an application that can understand the protocol and handle the connections. While there are a variety of different languages and servers that can do so, I prefer one, one that through it’s design handles socket event style programming well.
 
