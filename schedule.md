@@ -34,11 +34,10 @@ nav_order: 2
 
 - **Read** through the guides on [HTML & CSS](./basic-html-and-css) and [Javascript & DOM Manipulation](./document-object-model)
 - **Watch** the following videos:
-    -   Vanilla HTML/CSS/JavaScript
-        -   [HTML Basics](https://stream.nyu.edu/media/html%20basics/1_8ts8q7gu)
-        -   [CSS Basics](https://stream.nyu.edu/media/css%20basics/1_7yydov1h)
-        -   [CSS Basics – Better Organization](https://stream.nyu.edu/media/css%20basics%20-%20better%20organization%20with%20html/1_rp8pd8ip)
-        -   [JavaScript DOM Basics](https://stream.nyu.edu/media/javascript%20dom%20basics/1_s9ufrrai)
+    -   [HTML Basics](https://stream.nyu.edu/media/html%20basics/1_8ts8q7gu)
+    -   [CSS Basics](https://stream.nyu.edu/media/css%20basics/1_7yydov1h)
+    -   [CSS Basics – Better Organization](https://stream.nyu.edu/media/css%20basics%20-%20better%20organization%20with%20html/1_rp8pd8ip)
+    -   [JavaScript DOM Basics](https://stream.nyu.edu/media/javascript%20dom%20basics/1_s9ufrrai)
 
 -   **Write** a blog post detailing the last “live” media you consumed.  Answer these questions: 
     - What was it?  
@@ -63,6 +62,7 @@ nav_order: 2
 
 -   Becoming Live
 
+
 ### Outline
 
 -   Review Homework
@@ -70,10 +70,25 @@ nav_order: 2
 -   [Server Side JavaScript: Node.js](./becoming-live)
 -   [Chat](./becoming-live)
 -   [Glitch](./becoming-live)
+-   [Live version of the code from class](/examples/week-02/index.html) and [Download link](/examples/week-02.zip)
 
 ### Assignments
 
--   Reimagine chat!  Starting with the example from class, modify the front end (public/index.html) – adding any features or design/interaction that you would love to see in chat.  You might need to do a bit of work on the server as well – depending on what you want to happen.
+- **[Watch this video](https://drive.google.com/file/d/1NJDJatUKDJVb8am8BMdolt9-xLIcM3Zt/view?usp=sharing)** introducing websockets (you will need to be logged into Google Drive with your NYU email)
+- **Reimagine Chat!** After watching the video above, remix the chat application adding your own design / interaction elements.
+
+    1. Create an account on [Glitch.com](https://glitch.com/) web-based code editor.
+    2. Open [this chat application](https://glitch.com/edit/#!/f24-liveweb-chat) and press *Remix* to create your own copy.
+    3. Modify the front end code (`public/index.html` and `public/sketch.js`) – adding any features or design/interactive elements you wish!
+
+    *Not sure what to create?*  Try one of the following:
+    * Add an image with every incoming chat message
+    * Make the chat messages appear as leaves which fall after they arrive
+    * Each incoming message displays in a different font and color.
+    * Use a text [input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) box instead of p5.js' `keyPressed()` function to get messages.
+    * Use HTML `<p>` elements to display incoming messages using p5.js' [createP()](https://p5js.org/reference/p5/createP/) function or the JavaScript [createElement('p')](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) function
+    * Make all of the messages spin in circles
+    * Something else entirely...
 
 ## Week 3
 
