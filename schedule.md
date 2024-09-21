@@ -98,16 +98,27 @@ nav_order: 2
 
 ### Outline
 
--   Student Presentation
+-   Student chat project sharing
 -   Transmitting Other Data Types
     -   Mouse and Other Events
 -   [Canvas](./canvas)
     -   Collaborative Drawing
-        -   [Example from Class](https://glitch.com/edit/#!/p5-colab-simple-draw?path=server.js%3a41%3a2)
+        -   [Example from Class](https://glitch.com/edit/#!/f24-liveweb-drawing?path=public%2Fsketch.js%3A24%3A27)
 
 ### Assignments
 
--   Using Sockets, make a collaborative project using realtime data.  Perhaps making a collaborative painting program – or something more imaginative!
+-  **Collaborative Action** Remix the drawing application we began in class, adding in your own design / interaction elements.
+
+    1. Login to your account on [Glitch.com](https://glitch.com/) web-based code editor.
+    2. Open [this glitch sketch](https://glitch.com/edit/#!/f24-liveweb-drawing?path=public%2Fsketch.js%3A24%3A27) and press *Remix* to create your own copy.
+    3. Modify the front end code (`public/index.html` and `public/sketch.js`) – adding any features or design/interactive elements you wish!  If you want to add an additional interaction, you may need to modify the server code (`server.js`).
+
+    *Not sure what to create?*  Try one of the following:
+    * Each peer's mouse hides or reveals an image, creating an interactive maze or a game of "I Spy"
+    * Expand on the drawing example so each peer can change their color or brush size and clear the canvas.
+    * Create 3D geometries using p5.js' WebGL mode
+    * Paint using images!  Follow [this p5.js example](https://p5js.org/examples/imported-media-copy-image-data/) to learn more.
+    * Something else entirely... have fun and try something new!
 
 ## Week 4
 
