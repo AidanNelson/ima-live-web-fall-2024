@@ -107,7 +107,8 @@ nav_order: 2
 
 ### Assignments
 
--  **Collaborative Action** Remix the drawing application we began in class, adding in your own design / interaction elements.
+- **Watch** this [supplemental video](https://drive.google.com/file/d/15NWgJhBXzZ-cc_c2irETyvLkd_5BLAht/view?usp=sharing) reviewing JS objects and arrays (you will need to be logged into Google Drive with your NYU email)
+- **Collaborative Action** Remix the drawing application we began in class, adding in your own design / interaction elements.
 
     1. Login to your account on [Glitch.com](https://glitch.com/) web-based code editor.
     2. Open [this glitch sketch](https://glitch.com/edit/#!/f24-liveweb-drawing?path=public%2Fsketch.js%3A24%3A27) and press *Remix* to create your own copy.
