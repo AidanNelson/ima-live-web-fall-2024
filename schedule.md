@@ -125,19 +125,28 @@ nav_order: 2
 
 ### Objectives
 
--   Live Medias
+-   Sharing the Canvas 
 
 ### Outline
 
--   Review assignment
--   Student Presentation
+-   Review assignments
+-   Design Exercise
+-   Code demo: 
+    - Capturing and sharing the canvas
+    - Capturing and sharing webcam video
 -   [HTML5 Audio and Video with WebRTC](./live-audio-video)
--   [In Class Example of sending canvas through socket](https://glitch.com/edit/#!/olivine-green-emmental?path=public%2findex.html%3a19%3a55)
--   [In Class Example of doing the same with p5.js](https://glitch.com/edit/#!/guiltless-enormous-moon?path=public%2findex.html%3a18%3a12)
+-   [Example of sending canvas through socket](https://glitch.com/edit/#!/f24-liveweb-week-4-sending-canvas)
+-   [Example of sending webcam video on a canvas through socket](https://glitch.com/edit/#!/f24-liveweb-week-4-sending-webcam-with-canvas?path=public%2Fsketch.js%3A1%3A0)
+-   [Example of sending and playing back an animated line](https://glitch.com/edit/#!/f24-liveweb-week-4-sending-animations?path=README.md%3A1%3A0)
+
 
 ### Assignments
 
--   What can live or real-time camera images add to your drawing or chat application?  Try adding that capability in to one of your two previous assignments.
+-   What can live or real-time camera images add to your collaborative drawing application?  Try adding this capability in to one of your two previous assignments.
+    - Use `createCapture` or `getUserMedia()` or `getDisplayMedia()`
+    - Following the examples from class, send a webcam image using websockets
+    - Note that you might need to change the socket message handlers on the server in the server.js file
+    - Focus on design: why does this drawing application need real-time webcam images?
 
 ## Week 5 
 
