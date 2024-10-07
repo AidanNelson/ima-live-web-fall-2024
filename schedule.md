@@ -165,8 +165,8 @@ nav_order: 2
 ### Assignments
 
 -   Start to think about midterm project ideas
--   [Try out this Glitch example using SimplePeer](https://glitch.com/edit/#!/simplepeer-with-signaling-server?path=readme.md%3a1%3a0) and this [p5livemedia example](https://editor.p5js.org/shawn/sketches/7mlwlsfo3)
--   On the class website, detail a midterm project idea. Please make sure to touch on the concept and begin to explore how to make it. Remember that the goal of the midterm project to develop something of your own choosing using the techniques learned through the course thus far.  It should be similar in scope to a homework assignment (complete in 1 week).  It is possible to begin working on a larger project in which case the midterm should be dedicated to a proof of concept of the overall idea.  Think of it as a rough sketch rather than a painting or an outline instead of a paper.
+-   [Try out this Glitch example using p5LiveMedia](https://glitch.com/edit/#!/f24-liveweb-week-5-webcam-video) and this one supporting [multiple peers using p5LiveMedia](https://glitch.com/edit/#!/f24-liveweb-week-5-multiple-peers)
+-   On the class Miro board, detail a midterm project idea. Please make sure to touch on the concept and begin to explore how to make it. Remember that the goal of the midterm project to develop something of your own choosing using the techniques learned through the course thus far.  It should be similar in scope to a homework assignment (complete in 1 week).  It is possible to begin working on a larger project in which case the midterm should be dedicated to a proof of concept of the overall idea.  Think of it as a rough sketch rather than a painting or an outline instead of a paper.
 
 ## Week 6
 
