@@ -156,11 +156,9 @@ nav_order: 2
 
 ### Outline
 
--   [Multi-user Live Audio/Video client and server side](./multiuser-live-audio-video)
--   [p5LiveMedia](https://github.com/vanevery/p5livemedia)
--   Canvas Streaming
+-   Design Exercise: examining existing applications
+-   Demo: [p5LiveMedia](https://github.com/vanevery/p5livemedia)
 -   Midterm Project Discussion
--   Student Presentation
 
 ### Assignments
 
