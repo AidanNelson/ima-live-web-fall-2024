@@ -157,7 +157,6 @@ nav_order: 2
 ### Outline
 
 -   Design Exercise: examining existing applications
--   Demo: [p5LiveMedia](https://github.com/vanevery/p5livemedia)
 -   Midterm Project Discussion
 
 ### Assignments
@@ -191,19 +190,34 @@ nav_order: 2
 ### Outline
 
 -   Midterm Project Presentations
--   [HTTPS](./https) + Let’s Encrypt
-    -   [HTTPS video](https://stream.nyu.edu/media/https/1_dp5xxd1s)
-    -   [Let’s Encrypt video](https://stream.nyu.edu/playlist/dedicated/1_uu3p80ff/1_f22insgv)
+-   Sharing webcam with [p5LiveMedia](https://github.com/vanevery/p5livemedia)
+
 
 ### Assignments
 
--   Post Midterm Project Documentation to the class website
+- **Midterm Documentation** - Post Midterm Project Documentation to the class website
     -   Something visual, preferably a screen grab video and/or video of the interaction.
     -   A short description of what it is.
     -   A short description of why you made it.
     -   A short description of how it works.
     -   Add your code for people around the world who want to do similar things.
     -   Describe where you would like to take this project, what more you would like to do with it.
+
+- **Video Chat Exercise!** - Implement a video-chat app using WebRTC and p5LiveMedia
+    - Expand on the code example from class to create a webcam enabled app for at least 3 participants using WebRTC and p5LiveMedia
+    - You may choose how to place the incoming video feeds: randomly, in a grid, in a circle or use "WebGL" mode to place the participants in 3D space. 
+    - Focus on the look and feel of your app - what is it which sets it apart from a standard video-conferencing solution.
+    - Implement at least one of the following:
+        - Participants can move their video feed around the canvas (and those changes are shown to other participants)
+        - Participants can make their video feed larger or smaller (and those changes are shown to other participants)
+        - App makes use of the entire window and all parts of the window are filled with some content.
+        - Participants can also share drawings or animations
+        - Each participants' video feed is displayed multiple times.
+        - Something else?  Feel free to come up with your own fun video-chat ideas.
+    - Be sure to document your video chat app on your blog.  Answer the following questions:
+        - What did you try to implement and why?
+        - Any design references or technical implementation references which you followed?  Cite your sources.
+        - What didn't work?  How did you try to fix it?
 
 ## Week 8
 
@@ -231,6 +245,9 @@ nav_order: 2
 
 -   Field Trip
 -   Databases
+- [HTTPS](./https) + Let’s Encrypt
+    -   [HTTPS video](https://stream.nyu.edu/media/https/1_dp5xxd1s)
+    -   [Let’s Encrypt video](https://stream.nyu.edu/playlist/dedicated/1_uu3p80ff/1_f22insgv)
 
 ### Outline
 
