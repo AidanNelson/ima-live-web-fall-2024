@@ -223,21 +223,24 @@ nav_order: 2
 
 ### Objectives
 
+-   Slides: Video Chat Experiments
 -   WebRTC Data
--   Capture and Storage
 
 ### Outline
 
--   [Data Channels](./peer-to-peer-data)
-    -   [p5LiveMedia Example](https://editor.p5js.org/shawn/sketches/wvh7dfmxn)
--   [MediaRecorder](./media-recorder)
--   [Saving Files on Node.js](./media-recorder)
+-   [Data Channels](https://github.com/vanevery/p5LiveMedia?tab=readme-ov-file#sharing-data)
+    -   [p5LiveMedia Example](https://editor.p5js.org/AidanNelson/sketches/8EcgJpEUi)
+-   If we have time:
+    - [MediaRecorder](./media-recorder)
+    - [Saving Files on Node.js](./media-recorder)
 
 ### Assignments
 
--   -   [Try out this Glitch example using p5LiveMedia](https://glitch.com/edit/#!/f24-liveweb-week-5-webcam-video) and this one supporting [multiple peers using p5LiveMedia](https://glitch.com/edit/#!/f24-liveweb-week-5-multiple-peers)
--   Try using DataChannels instead of sockets for an earlier chat based assignment
--   Get up and running with this [example](https://itp.nyu.edu/~sve204/liveweb_spring2023/mediarecorder-simplepeer-example.zip) on Glitch or your own VPS
+-   **Video Chat Part II** - Expand on your video chat from last week, incorporating Data Channels through p5LiveMedia.  Data Channels allow you to share data through WebRTC and can do many of the same things as websockets.  They have the advantage of being available in a peer-to-peer encrypted WebRTC connection, meaning that they are extremely private.  
+     - Be sure to document your expanded video chat app on your blog.  Answer the following questions:
+        - What did you try to implement and why?
+        - Any design references or technical implementation references which you followed?  Cite your sources.
+        - What didn't work?  How did you try to fix it?
 
 ## Week 9
 
