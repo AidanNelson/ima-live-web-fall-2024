@@ -246,19 +246,19 @@ nav_order: 2
 
 ### Objectives
 
--   Field Trip
--   Databases
-- [HTTPS](./https) + Let’s Encrypt
-    -   [HTTPS video](https://stream.nyu.edu/media/https/1_dp5xxd1s)
-    -   [Let’s Encrypt video](https://stream.nyu.edu/playlist/dedicated/1_uu3p80ff/1_f22insgv)
+- Data sharing with WebRTC (part II)
+- Developing your design workflow
+- Working locally
 
 ### Outline
 
--   Simple Server Side Databases
+- Data sharing with WebRTC (part II)
+- Developing your design workflow
+- Working locally
 
 ### Assignments
 
--   Add in a database to previous assignment
+-  Restyle a previous assignment using
 
 ## Week 10
 
@@ -280,6 +280,9 @@ nav_order: 2
 -   Presentation
 -   Final Project Proposals
 -   [Mobile for Live](./mobile)
+- [HTTPS](./https) + Let’s Encrypt
+    -   [HTTPS video](https://stream.nyu.edu/media/https/1_dp5xxd1s)
+    -   [Let’s Encrypt video](https://stream.nyu.edu/playlist/dedicated/1_uu3p80ff/1_f22insgv)
 
 ### Outline
 
