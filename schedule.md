@@ -258,7 +258,7 @@ nav_order: 2
 
 ### Assignments
 
--  Restyle a previous assignment using
+-  Restyle a previous assignment
 
 ## Week 10
 
