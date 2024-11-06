@@ -246,19 +246,23 @@ nav_order: 2
 
 ### Objectives
 
-- Data sharing with WebRTC (part II)
-- Developing your design workflow
+- Review Data Channels
 - Working locally
+    - Installing Node / NPM 
+    - Installing VS Code
+    - Launching a node app from the terminal
 
 ### Outline
 
-- Data sharing with WebRTC (part II)
-- Developing your design workflow
 - Working locally
 
 ### Assignments
 
--  Restyle a previous assignment
+-  **Exercise: Working Locally** - Download one of your previous assignment from glitch (following [this tutorial](https://drive.google.com/file/d/1zHXs_tL56Xk8QDNUnHA0sxqC-_fP8FuW/view?usp=sharing)) and get it running on your local machine.  
+    - **Change** some aspect of how this application looks or feels.  A few ideas include:
+        - make your sketch work fullscreen, 
+        - add a photo or video to your sketch (make sure to add them to the `/public` folder)
+        - restyle your sketch using CSS to feel very different.  Looking for inspiration?  Check out this [archive of web design](https://www.webdesignmuseum.org/web-design-history?timeline=1990-1994)!
 
 ## Week 10
 
