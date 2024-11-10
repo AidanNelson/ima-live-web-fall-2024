@@ -268,7 +268,9 @@ nav_order: 2
 
 ### Objectives
 
--   Presentations
+-   Review homework: Working Locally
+-   More examples of live web experiences
+-   Local development with Node.js part 2
 -   Final Project Discussion
 
 ### Assignments
