@@ -286,7 +286,8 @@ nav_order: 2
 -   Presentation
 -   Final Project Proposals
 -   [Mobile for Live](./mobile)
-- [HTTPS](./https) + Let’s Encrypt
+- Additional Topics (Time Permitting):
+    - [HTTPS](./https) + Let’s Encrypt
     -   [HTTPS video](https://stream.nyu.edu/media/https/1_dp5xxd1s)
     -   [Let’s Encrypt video](https://stream.nyu.edu/playlist/dedicated/1_uu3p80ff/1_f22insgv)
 
@@ -302,12 +303,15 @@ nav_order: 2
 
 ### Objectives
 
--   Machine Learning for Live
--   Serial to Node
+- Guest Speaker: [Morakana](https://morakana.com)
+- Project Check-Ins 
+- Machine Learning for Live
+-   Additional Topics (Time Permitting): 
+    - Serial to Node
 
 ### Outline
 
--   [Serial Example](https://itp.nyu.edu/~sve204/liveweb_spring2022/serial-example.zip)
+-   Additional Topics (Time Permitting): [Serial Example](https://itp.nyu.edu/~sve204/liveweb_spring2022/serial-example.zip)
 
 ### Assignments
 
@@ -317,15 +321,16 @@ nav_order: 2
 
 ### Objectives
 
--   Traditional Streaming
--   Physical
--   Final Project Workshop
+-  Guest Speaker: Web Design Process 
+- Project Check-Ins / Working Time
+- Additional Topics (Time Permitting): 
+    - Traditional Streaming
+    - Physical
 
 ### Outline
 
 -   [Traditional Streaming + OBS](https://itp.nyu.edu/~sve204/liveweb_spring2023/streaming.html)
 -   Live Data from the physical world (arduino) [example](https://itp.nyu.edu/~sve204/liveweb_spring2023/serial-example.zip)
--   Final Project Workshop
 
 ### Assignments
 
